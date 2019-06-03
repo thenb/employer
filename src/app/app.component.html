@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  Employee Audit
+  
+  <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">          
+      </ul>
+      <span class="navbar-text" *ngIf="isAuthenticated">
+          Hola {{username}}
+          <button type="button" class="btn btn-outline-light" (click)="arrival()">Arrival</button>
+          <button type="button" class="btn btn-outline-light" (click)="departure()">Departure</button>
+          <button type="button" class="btn btn-outline-light" (click)="logout()">Cerrar sesión</button>
+          <button type="button" class="btn btn-outline-light" (click)="installPwa()">Add to Home</button>
+      </span>
+      <span class="navbar-text" *ngIf="!isAuthenticated">
+          <button type="button" class="btn btn-outline-light" (click)="login()">Iniciar sesión</button>
+      </span>
+  </div>
+</nav>
+
