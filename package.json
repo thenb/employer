@@ -25,7 +25,7 @@
     "@angular/service-worker": "~7.2.0",
     "angular2-jwt": "^0.2.3",
     "core-js": "^2.5.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-server-pwa": "^1.0.1",
     "ng-gapi": "0.0.73",
     "ngx-toastr": "^10.0.4",
